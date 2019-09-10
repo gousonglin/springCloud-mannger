@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-consumer-8080</artifactId>
+    <artifactId>springcloud-provider-8002</artifactId>
 
-    <name>springcloud-consumer-8080</name>
+    <name>springcloud-provider-8002</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -24,10 +24,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <version>2.1.2.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
         <dependency>
             <groupId>com.qf</groupId>
@@ -45,7 +41,6 @@
              -->
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
     <!-- spring cloud所依赖的内容 -->

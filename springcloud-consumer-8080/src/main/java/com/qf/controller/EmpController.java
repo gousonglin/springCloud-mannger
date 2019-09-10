@@ -18,10 +18,9 @@ public class EmpController {
     @RequestMapping
     public Object getAll() {
 
-        /**
-         *
-         */
-        List<Employee> list = restTemplate.getForObject("http://localhost:8001/employee", List.class);
+
+//        List<Employee> list = restTemplate.getForObject("http://localhost:8001/employee", List.class);
+        List<Employee> list = restTemplate.getForObject("http://springcloud-provider/employee", List.class);
         return list;
     }
 }

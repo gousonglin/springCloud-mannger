@@ -13,6 +13,7 @@
       <module>springcloud-provider-8001</module>
       <module>springcloud-consumer-8080</module>
       <module>springcloud-commons</module>
+      <module>springcloud-provider-8002</module>
   </modules>
   <!-- 聚合工程的父工程是pom -->
   <packaging>pom</packaging>
