@@ -17,6 +17,12 @@ eureka:
       defaultZone: http://localhost:7961/eureka/
 
 
+
 spring:
   application:
     name: springcloud-consumer
+
+feign:
+  hystrix:
+    # 开启熔断
+    enabled: true

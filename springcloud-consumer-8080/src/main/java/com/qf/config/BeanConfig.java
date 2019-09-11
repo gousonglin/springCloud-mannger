@@ -2,6 +2,7 @@ package com.qf.config;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.RoundRobinRule;
 import com.qf.rules.CustomerRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -33,7 +34,7 @@ public class BeanConfig {
      */
     @Bean
     public IRule randomRule() {
-//        return new RandomRule();
-        return new CustomerRule(); //自定义负载均衡策略
+        return new RoundRobinRule();
+//        return new CustomerRule(); //自定义负载均衡策略
     }
 }
