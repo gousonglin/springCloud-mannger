@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-commons/springcloud-commons.iml" filepath="$PROJECT_DIR$/springcloud-commons/springcloud-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-8080/springcloud-consumer-8080.iml" filepath="$PROJECT_DIR$/springcloud-consumer-8080/springcloud-consumer-8080.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server-7961/springcloud-eureka-server-7961.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server-7961/springcloud-eureka-server-7961.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-manager.iml" filepath="$PROJECT_DIR$/springcloud-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-8001/springcloud-provider-8001.iml" filepath="$PROJECT_DIR$/springcloud-provider-8001/springcloud-provider-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-8002/springcloud-provider-8002.iml" filepath="$PROJECT_DIR$/springcloud-provider-8002/springcloud-provider-8002.iml" />
+    </modules>
+  </component>
+</project>
